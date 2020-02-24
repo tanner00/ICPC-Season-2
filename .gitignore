@@ -1,3 +1,7 @@
+# Input files for competitive programming
+in*
+*.in
+
 # Prerequisites
 *.d
 
