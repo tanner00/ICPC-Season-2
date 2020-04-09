@@ -1,3 +1,6 @@
+// Problem: https://atcoder.jp/contests/abc160/tasks/abc160_b
+// Type: Math / Greedy
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -11,12 +14,12 @@ int main() {
 	cin.tie(NULL);
 	ios_base::sync_with_stdio(false);
 
-	i32 t;
-	cin >> t;
-	for (i32 i = 0; i < t; ++i) {
-		i32 x, y;
-		cin >> x >> y;
-	}
+	int x;
+	cin >> x;
+	
+	int mh = (x / 500) * 1000 + ((x % 500) / 5) * 5;
+	
+	cout << mh;
 
 	return 0;
 }
