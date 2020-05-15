@@ -4,6 +4,9 @@ in*
 *.out*
 out*
 
+# Stuff that isn't done
+*TODO*
+
 # Prerequisites
 *.d
 

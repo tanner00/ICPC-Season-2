@@ -16,8 +16,9 @@ int main() {
 		bool valid = true;
 		bool is_even = x % 2 == 0;
 		for (int i = 0; i < n - 1; ++i) {
-			cin >> x;
-			if (is_even && (x % 2 != 0) || !is_even && (x % 2 == 0)) {
+			int v;
+			cin >> v;
+			if (is_even && (v % 2 != 0) || !is_even && (v % 2 == 0)) {
 				valid = false;
 			}
 		}
